@@ -1,0 +1,37 @@
+{
+  "name": "@barry127/bui-feather-icons",
+  "version": "0.0.1",
+  "description": "Feather Icons for @barry127/bui",
+  "main": "build/index.js",
+  "module": "build/index.module.js",
+  "peerDependencies": {
+    "@barry127/bui": "^0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-replace": "^2.1.0"
+  },
+  "scripts": {
+    "clear": "rimraf build",
+    "prebuild": "echo 1 || npm run clear",
+    "build": "rollup -c rollup.config.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Barry127/bui-feather-icons.git"
+  },
+  "keywords": ["icons", "bui", "feather"],
+  "author":
+    "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Barry127/bui-feather-icons/issues"
+  },
+  "homepage": "https://github.com/Barry127/bui-feather-icons#readme"
+}
