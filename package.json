@@ -1,6 +1,6 @@
 {
   "name": "@barry127/bui-feather-icons",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Feather Icons for @barry127/bui",
   "main": "build/index.js",
   "module": "build/index.module.js",
@@ -26,9 +26,12 @@
     "type": "git",
     "url": "git+https://github.com/Barry127/bui-feather-icons.git"
   },
-  "keywords": ["icons", "bui", "feather"],
-  "author":
-    "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
+  "keywords": [
+    "icons",
+    "bui",
+    "feather"
+  ],
+  "author": "Barry de Kleijn <kleijn.barry@gmail.com> (https://github.com/Barry127)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Barry127/bui-feather-icons/issues"
